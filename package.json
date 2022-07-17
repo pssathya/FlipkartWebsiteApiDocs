@@ -1,0 +1,30 @@
+{
+  "name": "flipkartwebsitenode",
+  "version": "1.0.0",
+  "description": "flipkartwebsite nodejs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "package"
+  ],
+  "author": "sathya s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pssathya/FlipkartWebsite/issues"
+  },
+  "homepage": "https://github.com/pssathya/FlipkartWebsite#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "morgan": "^1.10.0"
+  }
+}
